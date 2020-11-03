@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Build image
+
+```bash
+DOCKER_BUILDKIT=1 docker build -t rails-simple-template .
+docker run -p 3000:3000 rails-simple-template
+```
