@@ -23,7 +23,17 @@ Things you may want to cover:
 
 * ...
 
+---
+
 ## Build image
+
+### Development
+
+```bash
+docker-compose run --service-ports app
+```
+
+### Production
 
 ```bash
 DOCKER_BUILDKIT=1 docker build -t rails-simple-template .
